@@ -1,0 +1,34 @@
+{
+  "isMKPresetApp": true,
+  "name": "zlj-fixed-data-table",
+  "description": "zlj-fixed-data-table",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "",
+  "keywords": [
+    "mk",
+    "monkey king",
+    "react",
+    "redux",
+    "mk-js",
+    "mk-command",
+    "zlj-fixed-data-table"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ziaochina/zlj-fixed-data-table.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ziaochina/zlj-fixed-data-table/issues"
+  },
+  "homepage": "https://github.com/ziaochina/zlj-fixed-data-table#readme",
+  "scripts": {
+    "start": "mk start",
+    "build": "mk build",
+    "pkg": "mk pkg"
+  },
+  "dependencies": {
+    "fixed-data-table-2": "^0.8.15",
+    "mk-command": "*"
+  }
+}
