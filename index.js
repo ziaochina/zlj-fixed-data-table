@@ -22,13 +22,13 @@ const state = {
 }
 
 @actionMixin('base')
-class action { 
+class action {
     constructor(option) {
         Object.assign(this, option.mixins)
     }
 }
 
-const view ={
+const view = {
     component: 'FixedDataTable.Table',
     rowHeight: 50,
     headerHeight: 50,
@@ -42,13 +42,13 @@ const view ={
             component: 'FixedDataTable.Cell',
             children: 'Name'
         },
-        cell:{
+        cell: {
             _function: '(row)',
             component: 'FixedDataTable.Cell',
             children: '{{ data.list[row.rowIndex].name}}'
         },
         width: 100
-    },{
+    }, {
         component: 'FixedDataTable.Column',
         columnKey: 'descrption',
         header: {

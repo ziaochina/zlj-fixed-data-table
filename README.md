@@ -10,8 +10,8 @@ $ maka add zlj-fixed-data-table
 ```
 
 2. Modify the view
-```javascript
 
+```javascript
 const state = {
     data: {
         list: [{

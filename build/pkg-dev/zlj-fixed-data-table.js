@@ -2826,7 +2826,7 @@ module.exports = _classCallCheck;
 /* 28 */
 /***/ (function(module) {
 
-module.exports = {"isMakaApp":true,"name":"zlj-fixed-data-table","description":"zlj-fixed-data-table","version":"1.0.0","license":"MIT","author":"ziaochina","repository":{"type":"git","url":"https://github.com/ziaochina/zlj-fixed-data-table.git"},"bugs":{"url":"https://github.com/ziaochina/zlj-fixed-data-table/issues"},"homepage":"https://github.com/ziaochina/zlj-fixed-data-tablet#readme","scripts":{"start":"maka start","dev":"maka start --dev","build":"maka build","pkg":"maka pkg"},"server":{"proxy":null,"port":8000},"subAppDir":"./apps","dependencies":{},"devDependencies":{"maka-fixed-data-table":"*"}};
+module.exports = {"isMakaApp":true,"name":"zlj-fixed-data-table","description":"zlj-fixed-data-table","version":"1.0.1","license":"MIT","author":"ziaochina","repository":{"type":"git","url":"https://github.com/ziaochina/zlj-fixed-data-table.git"},"bugs":{"url":"https://github.com/ziaochina/zlj-fixed-data-table/issues"},"homepage":"https://github.com/ziaochina/zlj-fixed-data-tablet#readme","scripts":{"start":"maka start","dev":"maka start --dev","build":"maka build","pkg":"maka pkg"},"server":{"proxy":null,"port":8000},"subAppDir":"./apps","dependencies":{},"devDependencies":{"maka-fixed-data-table":"*"}};
 
 /***/ }),
 /* 29 */
