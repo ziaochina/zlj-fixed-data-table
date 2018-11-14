@@ -24,6 +24,7 @@
     "port": 8000
   },
   "subAppDir": "./apps",
+  "dependencies": {},
   "devDependencies": {
     "maka-fixed-data-table": "*"
   }
