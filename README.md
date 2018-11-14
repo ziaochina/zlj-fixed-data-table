@@ -11,11 +11,52 @@ $ maka add zlj-fixed-data-table
 
 2. Modify the view
 ```javascript
+
+const state = {
+    data: {
+        list: [{
+            name: 'name1',
+            description: 'description1'
+        }, {
+            name: 'name2',
+            description: 'description2'
+        }]
+    }
+}
+
 const view = {
-    component: 'div',
+    component: 'FixedDataTable.Table',
+    rowHeight: 50,
+    headerHeight: 50,
+    rowsCount: '{{data.list.length}}',
+    width: 1000,
+    height: 500,
     children: [{
-        component: 'antd.Button',
-        children: 'submit'
+        component: 'FixedDataTable.Column',
+        columnKey: 'name',
+        header: {
+            component: 'FixedDataTable.Cell',
+            children: 'Name'
+        },
+        cell: {
+            _function: '(row)',
+            component: 'FixedDataTable.Cell',
+            children: '{{ data.list[row.rowIndex].name}}'
+        },
+        width: 100
+    }, {
+        component: 'FixedDataTable.Column',
+        columnKey: 'descrption',
+        header: {
+            component: 'FixedDataTable.Cell',
+            children: 'Descrption'
+        },
+        cell: {
+            _function: '(row)',
+            component: 'FixedDataTable.Cell',
+            children: '{{ data.list[row.rowIndex].description}}'
+        },
+        width: 100
     }]
 }
 ```
