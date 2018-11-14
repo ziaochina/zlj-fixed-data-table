@@ -26,6 +26,8 @@
   "subAppDir": "./apps",
   "dependencies": {},
   "devDependencies": {
-    "maka-fixed-data-table": "*"
+    "classnames": "^2.2.6",
+    "maka-fixed-data-table": "*",
+    "omit.js": "^1.0.0"
   }
 }
