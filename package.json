@@ -1,19 +1,10 @@
 {
-  "isMKPresetApp": true,
+  "isMakaApp": true,
   "name": "zlj-fixed-data-table",
   "description": "zlj-fixed-data-table",
   "version": "1.0.0",
   "license": "MIT",
-  "author": "",
-  "keywords": [
-    "mk",
-    "monkey king",
-    "react",
-    "redux",
-    "mk-js",
-    "mk-command",
-    "zlj-fixed-data-table"
-  ],
+  "author": "ziaochina",
   "repository": {
     "type": "git",
     "url": "https://github.com/ziaochina/zlj-fixed-data-table.git"
@@ -21,14 +12,19 @@
   "bugs": {
     "url": "https://github.com/ziaochina/zlj-fixed-data-table/issues"
   },
-  "homepage": "https://github.com/ziaochina/zlj-fixed-data-table#readme",
+  "homepage": "https://github.com/ziaochina/zlj-fixed-data-tablet#readme",
   "scripts": {
-    "start": "mk start",
-    "build": "mk build",
-    "pkg": "mk pkg"
+    "start": "maka start",
+    "dev": "maka start --dev",
+    "build": "maka build",
+    "pkg": "maka pkg"
   },
-  "dependencies": {
-    "fixed-data-table-2": "^0.8.15",
-    "mk-command": "*"
+  "server": {
+    "proxy": null,
+    "port": 8000
+  },
+  "subAppDir": "./apps",
+  "devDependencies": {
+    "maka-fixed-data-table": "*"
   }
 }

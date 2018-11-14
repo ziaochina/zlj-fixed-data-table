@@ -1,20 +1,48 @@
-## 简介
 
-zlj-antd应用，用于注册ant-design组件
+zlj-fixed-data-table application for registering the maka-fixed-data-table component
 
-## 使用方法
+## Usage
+Your application can use maka-fixed-data-table components by add zlj-fixed-data-table dependency.
 
-
-```
-1、增加依赖
-mk add zlj-antd
-
-2、修改index.html
-mk.load(['zlj-antd']).then(()=>{...})
+1. Add dependency
+```bash
+$ maka add zlj-fixed-data-table
 ```
 
+2. Modify the view
+```javascript
+const view = {
+    component: 'div',
+    children: [{
+        component: 'antd.Button',
+        children: 'submit'
+    }]
+}
+```
 
-## 协议
+3. Modify the index.html
+```html
+<script>
+    window.main = function (maka) {
+        maka.load(['zlj-fixed-data-table']).then(()=>{
+            maka.render('yourApp','app')
+        })
+    }
+<script>
+```
+
+## Download and run
+
+1. Download
+2. Decompress
+3. Enter decompress directory
+4. Run
+```bash
+$ yarn install
+$ yarn start
+```
+
+## License
 
 MIT
 
